@@ -1,8 +1,8 @@
 package Lesson1.Practicums.Sawtooth;
 
-public class Main {
+public class Sawtooth {
     public static void main(String[] args) {
-        int rows = 4;
+        int rows = 40;
 
         String text = "s";
 

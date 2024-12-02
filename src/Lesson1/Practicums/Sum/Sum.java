@@ -1,12 +1,14 @@
 package Lesson1.Practicums.Sum;
 
-public class Main {
+public class Sum {
     public static void main(String[] args) {
         int sum = 0;
+        System.out.print("Getallen: ");
         for (int i = 0; i <= 39; i++) {
+            System.out.print(i + " ");
             sum += i;
         }
-        System.out.println("De som is: " + sum);
+        System.out.println("\nDe som is: " + sum);
 
         if (sum == 780) {
             System.out.println("Het antwoord is correct!");
