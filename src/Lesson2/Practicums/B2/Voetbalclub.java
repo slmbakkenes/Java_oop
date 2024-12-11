@@ -1,14 +1,18 @@
 package Lesson2.Practicums.B2;
 
 public class Voetbalclub {
-    private String naam;
+    private final String naam;
     private int aantalGewonnen;
     private int aantalGelijk;
     private int aantalVerloren;
 
     // Constructor
     public Voetbalclub(String naam) {
-        this.naam = naam.trim();
+        if (naam == null || naam.trim().isEmpty()) {
+            this.naam = "FC";
+        } else {
+            this.naam = naam.trim();
+        }
         this.aantalGewonnen = 0;
         this.aantalGelijk = 0;
         this.aantalVerloren = 0;

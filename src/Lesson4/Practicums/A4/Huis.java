@@ -5,13 +5,13 @@ public class Huis {
     private int bouwjaar;
     private Persoon huisbaas; // Huis heeft een relatie naar Persoon
 
-    public Huis(String adres, int bouwjaar) {
-        this.adres = adres;
-        this.bouwjaar = bouwjaar;
+    public Huis(String adr, int bwjr) {
+        this.adres = adr;
+        this.bouwjaar = bwjr;
     }
 
-    public void setHuisbaas(Persoon huisbaas) {
-        this.huisbaas = huisbaas;
+    public void setHuisbaas(Persoon hb) {
+        this.huisbaas = hb;
     }
 
     public Persoon getHuisbaas() {
